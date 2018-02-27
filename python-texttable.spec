@@ -9,7 +9,9 @@
 Summary:	Python module to generate a formatted text table, using ASCII characters
 Name:		python-%{pypi_name}
 Version:	1.2.1
-Release:	1
+# before STBR, ensure docker-compose is updated:
+# pythonegg(texttable) < 0.10 is needed by docker-compose-1.19.0-1.noarch
+Release:	0.1
 License:	LGPL v2+
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/t/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
