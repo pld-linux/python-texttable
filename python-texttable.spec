@@ -8,12 +8,12 @@
 %define		pypi_name	texttable
 Summary:	Python module to generate a formatted text table, using ASCII characters
 Name:		python-%{pypi_name}
-Version:	1.2.1
+Version:	0.9.1
 Release:	1
 License:	LGPL v2+
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/t/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
-# Source0-md5:	7761da214368903c2409c13f1280cffe
+# Source0-md5:	a712b5a5464d51c5fc43c64d9d2cd0de
 URL:		https://pypi.python.org/pypi/texttable/
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
